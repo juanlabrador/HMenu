@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="fromDegrees" format="float|reference" />
+    <attr name="toDegrees" format="float|reference" />
+
+    <declare-styleable name="HMenu">
+        <attr name="icon" format="reference" />
+        <attr name="iconSize" format="dimension"/>
+        <attr name="paddingBetweenIcons" format="integer"/>
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="iconChildSize" format="dimension"/>
+        <attr name="spacing" format="dimension" />
+    </declare-styleable>
+</resources>
