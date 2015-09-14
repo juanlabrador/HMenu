@@ -4,13 +4,19 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
+    private com.juanlabrador.hmenu.Menu mHorizontalMenu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        createHorizontalMenu();
     }
 
     @Override
@@ -33,5 +39,28 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void createHorizontalMenu() {
+        mHorizontalMenu = (com.juanlabrador.hmenu.Menu) findViewById(R.id.main_add_entry);
+        final int[] mIcons = {
+                R.drawable.icn_feed_feeding, R.drawable.icn_feed_sleeping,
+                R.drawable.icn_feed_diapers, R.drawable.icn_feed_sickness,
+                R.drawable.icn_feed_temperature, R.drawable.icn_feed_medicines,
+                R.drawable.icn_feed_teeth, R.drawable.icn_feed_other
+        };
+
+        for (int i = 0; i < mIcons.length; i++) {
+            ImageView mItemIcon = new ImageView(this);
+            mItemIcon.setImageResource(mIcons[i]);
+
+            final int position = i;
+            mHorizontalMenu.addItem(mItemIcon, new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Toast.makeText(getApplicationContext(), "Position: " + position, Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
     }
 }
