@@ -7,7 +7,7 @@ This library shows a horizontal menu, it is oriented to menus with many icons.
 
 Features
 ========
-![Demo](button.png)
+![Demo](buttons.png)
 
 ![Demo](demo.gif)
 
