@@ -6,13 +6,14 @@ A horizontal menu to style iOS.
 This library shows a horizontal menu, it is oriented to menus with many icons.
 
 Features
-========
+--------
 ![Demo](buttons.png)
 
 ![Demo](demo.gif)
 
 
-#Usage
+Usage
+-----
 
 ```xml
 <com.juanlabrador.hmenu.Menu
@@ -36,13 +37,15 @@ This library have limitations.
 * For "iconChildSize", you should be to set size more little than main icon.
 * With "spacing" you add a spacing between main icon and first icon child, you must be to play with this value and "paddingBetweenIcons" for a proper display.
 
-#Download
+Download
+--------------
 
 ```groovy
 compile 'com.github.juanlabrador.hmenu:hmenu:1.0'
 ```
 
-#Log
+Log
+---
 
 1.0
 
