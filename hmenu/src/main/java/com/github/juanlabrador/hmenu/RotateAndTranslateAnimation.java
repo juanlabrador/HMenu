@@ -1,4 +1,4 @@
-package com.juanlabrador.hmenu;
+package com.github.juanlabrador.hmenu;
 
 import android.view.animation.Animation;
 import android.view.animation.Transformation;

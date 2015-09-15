@@ -1,4 +1,4 @@
-package com.juanlabrador.hmenu;
+package com.github.juanlabrador.hmenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;

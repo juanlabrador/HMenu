@@ -8,9 +8,11 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.github.juanlabrador.hmenu.HMenu;
+
 public class MainActivity extends Activity {
 
-    private com.juanlabrador.hmenu.Menu mHorizontalMenu;
+    private HMenu mHorizontalMenu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +44,7 @@ public class MainActivity extends Activity {
     }
 
     private void createHorizontalMenu() {
-        mHorizontalMenu = (com.juanlabrador.hmenu.Menu) findViewById(R.id.main_add_entry);
+        mHorizontalMenu = (HMenu) findViewById(R.id.main_add_entry);
         final int[] mIcons = {
                 R.drawable.icn_feed_feeding, R.drawable.icn_feed_sleeping,
                 R.drawable.icn_feed_diapers, R.drawable.icn_feed_sickness,

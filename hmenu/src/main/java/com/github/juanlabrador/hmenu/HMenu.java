@@ -1,4 +1,4 @@
-package com.juanlabrador.hmenu;
+package com.github.juanlabrador.hmenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -22,7 +22,7 @@ import android.widget.RelativeLayout;
 /**
  * Created by juanlabrador on 14/09/15.
  */
-public class Menu extends RelativeLayout {
+public class HMenu extends RelativeLayout {
 
     private int mSpacing;
     private int mIconSize;
@@ -38,11 +38,11 @@ public class Menu extends RelativeLayout {
     private ImageView mHintView;
     private Drawable mIconHint;
 
-    public Menu(Context context) {
+    public HMenu(Context context) {
         super(context);
     }
 
-    public Menu(Context context, AttributeSet attrs) {
+    public HMenu(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         mScale = getResources().getDisplayMetrics().density;
@@ -60,7 +60,7 @@ public class Menu extends RelativeLayout {
         setClipChildren(false);
 
         LayoutInflater mLayoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        mLayoutInflater.inflate(R.layout.menu, this);
+        mLayoutInflater.inflate(R.layout.hmenu, this);
 
         mScroll = (HorizontalScrollView) findViewById(R.id.scroll);
 
