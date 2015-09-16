@@ -1,7 +1,5 @@
-# HorizontalMenu   [![Download](https://api.bintray.com/packages/juanlabrador/maven/HorizontalMenu/images/download.svg) ](https://bintray.com/juanlabrador/maven/HorizontalMenu/_latestVersion)
+# HMenu   [ ![Download](https://api.bintray.com/packages/juanlabrador/maven/HorizontalMenu/images/download.svg) ](https://bintray.com/juanlabrador/maven/HorizontalMenu/_latestVersion)
 A horizontal menu to style iOS.
-
-<a href='https://bintray.com/juanlabrador/maven/HorizontalMenu/view?source=watch' alt='Get automatic notifications about new "HorizontalMenu" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
 This library shows a horizontal menu, it is oriented to menus with many icons.
 
@@ -41,7 +39,7 @@ Download
 --------------
 
 ```groovy
-compile 'com.github.juanlabrador.hmenu:hmenu:1.0'
+compile 'com.github.juanlabrador:hmenu:1.0@aar'
 ```
 
 Log
@@ -55,7 +53,7 @@ Log
 - Add icon main
 
 Developed by
-============
+------------
 
 * Juan Labrador - <juanjavierlabrador@gmail.com>
 * Twitter: <a href="https://twitter.com/juanlabrador">@JuanLabrador</a>
@@ -64,20 +62,3 @@ Inspiration in
 --------------
 
 <a href="https://github.com/daCapricorn/ArcMenu">ArcMenu</a>
-
-License
---------
-
-    Copyright 2015 Juan Labrador.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
