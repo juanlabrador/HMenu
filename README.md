@@ -1,4 +1,4 @@
-# HMenu   [ ![Download](https://api.bintray.com/packages/juanlabrador/maven/HorizontalMenu/images/download.svg) ](https://bintray.com/juanlabrador/maven/HorizontalMenu/_latestVersion)
+# HMenu   [ ![Download](https://api.bintray.com/packages/juanlabrador/maven/HMenu/images/download.svg) ](https://bintray.com/juanlabrador/maven/HMenu/_latestVersion)
 A horizontal menu to style iOS.
 
 This library shows a horizontal menu, it is oriented to menus with many icons.
